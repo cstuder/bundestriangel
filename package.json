@@ -20,12 +20,14 @@
   "homepage": "https://github.com/cstuder/bundestriangel#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.6"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
     "cropperjs": "^1.5.9",
     "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "src": "^1.1.2"
   }
 }
