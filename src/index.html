@@ -29,16 +29,10 @@
     </nav>
 
     <img
-      src="bundeshaustriangel-seo.jpg"
+      src="bundeshaustriangel-maske.png"
       class="d-none"
       alt="Preload initial image"
       id="initialImage"
-    />
-    <img
-      src="bundeshaustriangel-maske.png"
-      class="d-none"
-      alt="Preload mask image"
-      id="maskImage"
     />
 
     <div class="container">
@@ -50,6 +44,10 @@
               <input type="file" id="upload" class="form-control-file" /><br />
             </div>
           </form>
+
+          <p id="error" class="alert alert-danger d-none">
+            Huh? Hochtechnischer Fehler, wahrscheinlich ist das gar kein Bild.
+          </p>
 
           <h2>Schritt 2: Triangel runterladen</h2>
 
