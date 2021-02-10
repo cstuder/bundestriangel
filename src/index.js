@@ -12,6 +12,9 @@ window.onload = (event) => {
   const inputElement = document.getElementById("upload");
   inputElement.addEventListener("change", handleUpload, false);
 
+  const outputElement = document.getElementById("download");
+  outputElement.addEventListener("click", handleDownload, false);
+
   loadInitialImage();
 };
 
@@ -51,4 +54,16 @@ function drawOnTop() {
 function failed() {
   const errorBox = document.getElementById("error");
   errorBox.classList.remove("d-none");
+}
+
+function handleDownload() {
+  const canvas = document.getElementById("canvas");
+
+  var link = document.getElementById("download");
+  link.setAttribute("download", "MeinBundeshaus.png");
+  link.setAttribute(
+    "href",
+    canvas.toDataURL("image/png").replace("image/png", "image/octet-stream")
+  );
+  link.click();
 }
