@@ -59,7 +59,7 @@ function failed() {
 function handleDownload() {
   const canvas = document.getElementById("canvas");
 
-  var link = document.getElementById("download");
+  var link = document.getElementById("downloadLink");
   link.setAttribute("download", "MeinBundeshaus.png");
   link.setAttribute(
     "href",
