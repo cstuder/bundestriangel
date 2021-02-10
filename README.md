@@ -1,5 +1,7 @@
 # Bundestriangel
 
+<https://bundeshaus.existenz.ch>
+
 ## Development
 
 `npm run dev`
@@ -10,4 +12,4 @@
 
 ## Deployment
 
-TBA.
+`npm run deploy-LIVE`
