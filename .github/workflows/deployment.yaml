@@ -22,7 +22,7 @@ jobs:
         uses: burnett01/rsync-deployments@4.1
         with:
           path: dist/
-          switches: -avzr --delete
+          switches: -avzr
           remote_path: ${{ secrets.RSYNC_REMOTE_PATH }}
           remote_host: ${{ secrets.RSYNC_REMOTE_HOST }}
           remote_user: ${{ secrets.RSYNC_REMOTE_USER }}
