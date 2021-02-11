@@ -3,12 +3,12 @@ import "./index.scss";
 
 const CANVAS_WIDTH = 630;
 const CANVAS_HEIGHT = 630;
-const TARGET_X = 150;
-const TARGET_Y = 234;
-const TARGET_W = 465;
-const TARGET_H = 80;
+const TARGET_X = 106;
+const TARGET_Y = 319;
+const TARGET_W = 430;
+const TARGET_H = 75;
 
-window.onload = (event) => {
+window.onload = () => {
   const inputElement = document.getElementById("upload");
   inputElement.addEventListener("change", handleUpload, false);
 
