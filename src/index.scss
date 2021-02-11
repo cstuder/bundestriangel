@@ -1,1 +1,41 @@
 @import "~bootstrap/scss/bootstrap";
+
+button#download {
+    margin-bottom: 20px;
+}
+.canvasWrapper {
+    padding-bottom: 20px;
+}
+.headRow {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    img {
+        width: 100%;
+    }
+    h1 {
+        font-family: 'Pacifico', cursive;
+        padding-top: 20px;
+        color: red;
+        a {
+            text-decoration: underline;
+            color: red;
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+}
+h2, p {
+    font-family: 'Staatliches', cursive;
+    color: red;
+}
+footer {
+    padding-top: 60px;
+    p {
+        font-size: 30px;
+    }
+}
+.impressum {
+    color: grey;
+}
