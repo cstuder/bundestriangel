@@ -28,6 +28,7 @@
     "bootstrap": "^4.6.0",
     "cropperjs": "^1.5.9",
     "jquery": "^3.5.1",
+    "parcel-plugin-ogimage": "^1.2.0",
     "popper.js": "^1.16.1",
     "src": "^1.1.2"
   }
