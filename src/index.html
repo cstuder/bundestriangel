@@ -16,18 +16,13 @@
       content="Mach deinen eigenen Bundeshaustriangel"
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="bundeshaustriangel-seo.jpg" />
-    <!–– seo pfad muss dann absolut sein ––>
+    <meta property="og:url" content="https://bundeshaustriangel.aare.guru" />
+    <meta property="og:image" content="https://bundeshaustriangel.aare.guru/bundeshaustriangel-seo.jpg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Staatliches&display=swap" rel="stylesheet">
     <script src="index.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
-      <span class="navbar-brand mb-0 h1"
-        >Mach deinen eigenen Bundeshaustriangel</span
-      >
-    </nav>
-
     <img
       src="bundeshaustriangel-maske.png"
       class="d-none"
@@ -36,39 +31,55 @@
     />
 
     <div class="container">
+      <div class="row headRow">
+        <div class="col">
+          <img src="/triangel-head.png" alt="">
+          <h1>Mach dein eigenes <a href="https://www.parlament.ch/press-releases/Pages/mm-info-2021-02-03.aspx" target="_blank">Bundehaus Triangel</a></h1>
+        </div>
+      </div>
       <div class="row">
-        <div class="col-4">
-          <h2>Schritt 1: Bild raufladen</h2>
+        <div class="col-sm-4">
+          <h2>Schritt 1: Grandioses Werk ufenladen</h2>
           <form>
             <div class="form-group">
               <input type="file" id="upload" class="form-control-file" /><br />
             </div>
           </form>
-
+        
           <p id="error" class="alert alert-danger d-none">
             Huh? Hochtechnischer Fehler, wahrscheinlich ist das gar kein Bild.
           </p>
-
-          <h2>Schritt 2: Triangel runterladen</h2>
-
-          <button id="download" class="btn btn-success">Runterladen</button>
+        </div>
+        <div class="col-sm-6 canvasWrapper">
+          <h2>Schritt 2: Much wow!</h2>
+          <canvas id="canvas" width="630px" height="630px" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm c">
+          <h2>Schritt 3: Triangel abenladen</h2>
+          <button id="download" class="btn btn-success">Triangel Döwnload</button>
           <a id="downloadLink"></a>
         </div>
-
-        <div class="col-8">
-          <canvas id="canvas" width="730px" height="383px" />
+        <div class="col-sm">
+            <h2>Schritt 3: Irgendwo poste mit häschtäg #bundeshaustriangel</h2>
         </div>
+        <div class="col-sm"><h2>Schritt 4: Söcksess!!!</h2></div>
       </div>
     </div>
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted"
-          >2021, Build with indifference 😑&mdash; Bilder werden nicht auf dem
-          Server gespeichert. Keine Werbung. Kein Tracking. &mdash;
+        <p>
+          <a href="https://www.parlament.ch/press-releases/Pages/mm-info-2021-02-03.aspx">Neues Kunstwerk am Bundeshaus – Wettbewerb ist lanciert</a>.
+            Es gibt zwar nur eingeladene Künstlerinnen aber wir haben gedacht dass ja frei nach Beuys jede eine Künstlerin ist.
+          </p>
+        <p class="impressum"
+          >2021, Built during Homeoffice Zoom Calls 😑 &mdash; Bilder werden nicht auf dem
+          Server gespeichert. Keine Werbung. Kein Tracking. Bisch aständig gäu! <br>
           <a href="https://github.com/cstuder/bundestriangel">Quellcode</a>
           &mdash; <a href="mailto:cstuder@existenz.ch">Kontakt</a> &mdash; Ein
-          Produkt der <a href="https://firma.aare.guru">Aare Guru GmbH</a></span
+          Gehirnfurz der <a href="https://firma.aare.guru">Aare Guru GmbH</a></p
         >
       </div>
     </footer>

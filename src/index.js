@@ -1,8 +1,8 @@
 import "bootstrap";
 import "./index.scss";
 
-const CANVAS_WIDTH = 730;
-const CANVAS_HEIGHT = 383;
+const CANVAS_WIDTH = 630;
+const CANVAS_HEIGHT = 630;
 const TARGET_X = 150;
 const TARGET_Y = 234;
 const TARGET_W = 465;
